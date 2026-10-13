@@ -1,0 +1,20 @@
+.student-table {
+  border: 1px solid red;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.student-table thead {
+  background-color: white;
+  color: black;
+}
+
+.student-table tbody tr {
+  background-color:green;
+  color:white;
+}
+.student-table tbody tr:hover {
+  background-color:white;
+  color:green;
+}
